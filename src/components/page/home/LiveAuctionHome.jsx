@@ -69,10 +69,10 @@ function LiveAuction() {
 					<div className="row d-flex justify-content-center">
 						<div className="col-sm-12 col-md-10 col-lg-8 col-xl-6">
 							<div className="section-title4">
-								<h2>Live Auction</h2>
+								<h2>Hot Products</h2>
 								<p className="mb-0">
-									Explore on the world's best &amp; largest Bidding marketplace
-									with our beautiful Bidding products. We want to be a part of
+									Explore on the Nepal's best &amp; largest furniture marketplace
+									with our beautiful products. We want to be a part of
 									your smile, success and future growth.
 								</p>
 							</div>

@@ -20,7 +20,7 @@ function AuctionCardList(props) {
                     </div>
                 </div> */}
                 <div className="auction-img">
-                    <img alt="liveAuctionImage" src={`${props.auctionImg}`}/>
+                    <img alt={props.content} src={`${props.auctionImg}`}/>
                 </div>
                 <div className="auction-content">
                     <h4>

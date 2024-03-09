@@ -9,7 +9,7 @@ function HomePage() {
 		<>
 			<HeroBanner2 />
 			<LiveAuctionHome />
-			<UpComing />
+			{/* <UpComing /> */}
 		</>
 	)
 }
