@@ -95,7 +95,7 @@ function Header() {
                     <Link to={`/`} onClick={scrollTop}>
                         <img
                             alt="logo"
-                            src={'/images/bg/hh.png'}
+                            src={'/images/logo/hh.png'}
                         />
                     </Link>
                 </div>
@@ -103,7 +103,7 @@ function Header() {
                     <div className="mobile-logo-area d-lg-none d-flex justify-content-between align-items-center">
                         <div className="mobile-logo-wrap ">
                             <Link to={'/'}>
-                                <img alt="logo" src={'/images/bg/hh.png'}/>
+                                <img alt="logo" src={'/images/logo/hh.png'}/>
                             </Link>
                         </div>
                         <div className="menu-close-btn" onClick={handleSidbarMenu}>

@@ -2,6 +2,19 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 
 import Counter from "../common/Counter";
+
+
+const products = [
+    {
+        id:1,
+        title: 'Product 1',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam',
+        price: 100,
+        basePrice: 100,
+        image:'/uploads/example.jpg'
+    }
+]
+
 function AuctionCardList(props) {
     const scrollTop = () => window.scrollTo({top: 0, behavior: 'smooth'})
     return (
@@ -20,16 +33,21 @@ function AuctionCardList(props) {
                     </div>
                 </div> */}
                 <div className="auction-img">
-                    <img alt={props.content} src={`${props.auctionImg}`}/>
+                    {/* <img alt={props.content} src={`${props.auctionImg}`}/> */}
+                    <img alt="Hello" src="/uploads/example.jpg"/>
                 </div>
                 <div className="auction-content">
                     <h4>
-                        <Link to={`/auction-details`} onClick={scrollTop}>
+                        {/* <Link to={`/auction-details`} onClick={scrollTop}>
                             {props.content}
+                        </Link> */}
+                        <Link to={`/auction-details`} onClick={scrollTop}>
+                            Test 
                         </Link>
                     </h4>
                     <p>
-                        Price : <span>रु {props.price}</span>
+                        {/* Price : <span>रु {props.price}</span> */}
+                        Price : <span>रु 20</span>
                     </p>
                     <div className="auction-card-bttm">
                         <Link

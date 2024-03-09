@@ -18,7 +18,7 @@ function Footer() {
                             <div className="col-lg-3 col-md-6">
                                 <div className="footer-item">
                                     <Link to={`/`} onClick={scrollTop}>
-                                        <img alt="images" src={'/images/bg/fl.png'}/>
+                                        <img alt="images" src={'/images/logo/ff.png'}/>
                                     </Link>
                                     <p>
                                         Premiere Auctioneers is always here to serve you. Subscribe
@@ -104,15 +104,7 @@ function Footer() {
                     <div className="container">
                         <div className="d-flex justify-content-center">
                             <p>
-                                Copyright 2023 &copy; <Link to={'/'}>Premiere Auctioneers</Link>{' '}
-                                | Design By{' '}
-                                <a
-                                    href="https://ranjanyadav.com.np"
-                                    target="_blank"
-                                    className="egns-lab"
-                                >
-                                    Ranjan Yadav
-                                </a>
+                                Copyright {new Date(Date.now()).getFullYear()} &copy; <Link to={'/'}>Prime Asthetics</Link>{' '}
                             </p>
                         </div>
                     </div>

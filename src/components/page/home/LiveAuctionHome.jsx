@@ -8,6 +8,15 @@ import AuctionCardList from '../../layout/LiveAuctionCardList.jsx'
 
 SwiperCore.use([Navigation, Autoplay, Pagination])
 
+const productss = [
+	{ id: 1 },
+	{ id: 2 },
+	{ id: 3 },
+	{ id: 4 },
+	{ id: 5 },
+	{ id: 6 },
+]
+
 function LiveAuction() {
 	const [loading, setLoading] = useState(false)
 	const [products, setProducts] = useState([])
@@ -90,7 +99,7 @@ function LiveAuction() {
 								className="swiper upcoming-slider swiper-fix"
 							>
 								<div className="swiper-wrapper">
-									{products &&
+									{/* {products &&
 										products.map((product, id) => {
 											return (
 												<SwiperSlide className="swiper-slide" key={id}>
@@ -103,7 +112,16 @@ function LiveAuction() {
 													/>
 												</SwiperSlide>
 											)
-										})}
+										})} */}
+										{productss &&
+											productss.map((product, id) => {
+												return (
+													<SwiperSlide className="swiper-slide" key={id}>
+														<AuctionCardList />
+													</SwiperSlide>
+												)
+											})}
+
 								</div>
 							</Swiper>
 							<div className="slider-bottom d-flex justify-content-between align-items-center">

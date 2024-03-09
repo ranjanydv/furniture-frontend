@@ -29,7 +29,7 @@ function LoginWrap() {
 		try {
 			await axios
 				.post(
-					`https://premiere-auctioneers-backend.vercel.app/api/v1/auth/login`,
+					`http://localhost:5000/api/v1/auth/login`,
 					loginUser
 				)
 				.then((response) => {
