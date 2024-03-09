@@ -1,0 +1,116 @@
+/*@import url("./assets/css/animate.css");*/
+@import url('./assets/css/all.css');
+@import url('./assets/css/bootstrap.min.css');
+@import url('./assets/css/boxicons.min.css');
+@import url('./assets/css/bootstrap-icons.css');
+@import url('./assets/css/swiper-bundle.min.css');
+/*@import url("./assets/css/slick-theme.css");*/
+@import url('./assets/css/slick.css');
+@import url('./assets/css/nice-select.css');
+@import url('./assets/css/magnific-popup.css');
+@import url('./assets/css/odometer.css');
+@import url('./assets/style.css');
+
+:root {
+	--bg1: #8b83838b;
+}
+
+.svg-image {
+	transition: fill 0.2s;
+	opacity: 0.6;
+}
+
+.gif {
+	/*content: '';*/
+	/*height: 50px;*/
+	/*width: 50px;*/
+	/*background: url("/src/assets/gif/fast-forward.png");*/
+}
+
+.gif:hover {
+	height: 50px;
+	width: 50px;
+	content: url('/src/assets/gif/fast-forward.gif');
+}
+
+@media only screen and (min-width: 1199px) {
+	.main-menu ul li:hover ul.submenu {
+		display: block !important;
+		transition: all linear 0.3s;
+	}
+}
+
+.auction-img img {
+	aspect-ratio: 4/3;
+}
+.boxy-image {
+	aspect-ratio: 4/3;
+}
+
+.ratio-image {
+	aspect-ratio: 16/11;
+}
+
+.select {
+	position: relative;
+	/* margin-bottom: 15px; */
+	width: 80px;
+}
+
+.select.style-2 {
+	position: relative;
+	width: 100%;
+	border: 1px solid #eee;
+	height: 50px;
+	line-height: 30px;
+	border-radius: 5px;
+	font-family: 'Saira', sans-serif;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background: transparent;
+	font-size: 14px;
+	font-weight: 500;
+	color: #696969;
+}
+
+.select.style-2:focus {
+	border: none;
+	outline: 1px solid #5ecc76;
+}
+
+.select.style-2 .selectBtn {
+	font-size: 13px;
+	font-weight: 400;
+	color: #696969;
+}
+
+.select .selectBtn {
+	background: var(--bg1);
+	padding: 10px;
+	box-sizing: border-box;
+	border-radius: 3px;
+	width: 100%;
+	cursor: pointer;
+	position: relative;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background: transparent;
+	font-size: 14px;
+	font-weight: 500;
+	font-family: 'Saira', sans-serif;
+	color: #696969;
+}
+
+.select-option {
+	padding: 8px 10px;
+	box-sizing: border-box;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 500;
+	font-family: 'Saira', sans-serif;
+	color: #696969;
+}
